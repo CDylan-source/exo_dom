@@ -1,0 +1,12 @@
+var header = document.createElement("header");
+var h1 = document.createElement("h1");
+var h1txt = document.createTextNode('Hello');
+var headertxt = document.createTextNode('Bonjour');
+header.appendChild(headertxt);
+document.body.appendChild(header);
+h1.appendChild(h1txt);
+document.body.appendChild(h1);
+var p = document.createElement("p");
+var ptxt = document.createTextNode('Is a slug a snail without shell ?');
+p.appendChild(ptxt);
+document.body.appendChild(p);
